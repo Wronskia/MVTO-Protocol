@@ -31,3 +31,6 @@ RTS(Om) = WTS(Om) = TS(Ti).
 - Commits: Processing the commit of transaction Ti is delayed for recoverability, until
 all transactions (Tj , j != i) that wrote versions read by Ti have successfully committed.
 If any of the transactions Tj aborts, Ti should abort as well. 
+# Author
+
+Yassine Benyahia
